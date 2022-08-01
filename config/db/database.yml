@@ -1,0 +1,47 @@
+database:
+  nds:
+    mysql:
+      host: 172.18.136.37
+      port: 3306
+      username: root
+      password: P@ssw0rd
+      dbname: nds_dd_services
+      adapter: mysql
+  NdsTob:
+    mysql:
+      host: 172.18.136.37
+      # host: 
+      # username: admin
+      # password: admin
+      port: 3306
+      username: root
+      password: P@ssw0rd
+      dbname: nds_tob_pinjaman_services
+      adapter: mysql
+  ndsParam:
+    mysql:
+      host: 172.18.136.37
+      port: 3306
+      username: root
+      password: P@ssw0rd
+      dbname: nds_param_services
+      adapter: mysql
+  ndsLn:
+    mysql:
+      host: 172.18.136.37
+      port: 3306
+      username: root
+      password: P@ssw0rd
+      dbname: nds_ln_services
+      adapter: mysql
+  rabbit:
+    rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+      dbname: 
+      adapter: rabbitmq
+  redis:
+    host: 
+    port: 6379
